@@ -26,14 +26,13 @@ int main() {
     // Print out the original contents of aNum and bNum (before swapping)
     printf("\nOriginal Numbers:\n");
     printf("aNum = %d, bNum = %d\n\n", aNum, bNum);
-
     // TODO:  Part 1 - Uncomment this code when you have implemented swapPassByValue
-    //swapPassByValue(aNum, bNum);
-    //printf("from main: aNum = %d, bNum = %d\n\n", aNum, bNum);
+    swapPassByValue(aNum, bNum);
+    printf("from main: aNum = %d, bNum = %d\n\n", aNum, bNum);
 
     // TODO:  Part 2 - Uncomment this code when you have implemented swapPassByReference
-    //swapPassByReference(&aNum, &bNum);
-    //printf("from main: aNum = %d, bNum = %d\n\n", aNum, bNum);
+    swapPassByReference(&aNum, &bNum);
+    printf("from main: aNum = %d, bNum = %d\n\n", aNum, bNum);
 
     return 0;
 }
